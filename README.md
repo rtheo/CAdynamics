@@ -10,8 +10,8 @@ kertest.m : Shows an image of the Interaction Kernal as a matrix<br>
 gmap.m :   Computes a global map of a 2D CA for all input strings of a given length<br>
 
 Use mat = drawtool(init, dim,...) to make initial conditions as square arrays in three modes<br>
-1 -> random square array
-2 -> graphical user interface using mouse to mark ones/zeros
-3 -> load from external image file
+1 -> random square array<br>
+2 -> graphical user interface using mouse to mark ones/zeros<br>
+3 -> load from external image file<br>
 
 Use v = reshape(mat, 1, dim*dim) to feed the liveon(v, ...) function 
