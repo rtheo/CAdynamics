@@ -3,7 +3,7 @@ Alternative representation of Cellular Automata with Circulant Convolution Filte
 
 Main Program   
 liveon.m   : Simulates a 2D CA with a particular rule loaded at initialization level <br>
-liferule.m : Initializes Game-of-Life Rule in equivalent 1D Lookup Table form 
+liferule.m : Initializes Game-of-Life Rule in equivalent 1D Lookup Table form<br> 
 kerinit.m  : Initializes Kernel vector<br>
 kernel.m   : Implements rotations of the kernel vector for a 2D lattice<br>
 Auxilliary<br>
