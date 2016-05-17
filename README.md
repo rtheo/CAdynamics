@@ -34,4 +34,4 @@ https://en.wikipedia.org/wiki/Split-step_method<br>
 The peculiar analogy in the spectral1D code with the split-step method can be made exact by taking the<br> 
 analysis of the eigenvalues from the first link and considering a superposition of "wavefunctions" with <br>
 the non-linear part being given s the solution of exp(g|\psi|^2)|\psi| = z or psi = \pm\sqrt( W(-g^2|z|^2 ) )<br>
-with W the Lambert's function. Whether this is a coincidence is stil unknown.
+with W the Lambert's function. Whether this is just a coincidence may be a matter of interpretation.
