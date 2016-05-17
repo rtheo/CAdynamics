@@ -24,3 +24,14 @@ Use v = reshape(mat, 1, dim*dim) to feed the liveon(v, ...) function
 
 Change liferule with your own function for other CA types.
 
+Comments:
+Details on the spectral representation of circulant filters are in the relevant Wikipedia's lemma<br>
+<a href="https://en.wikipedia.org/wiki/Circulant_matrix"></a>
+
+Details on pseudo-spectral methods are in the below link
+<a href="https://en.wikipedia.org/wiki/Split-step_method"></a>
+
+The peculiar analogy in the spectral1D code with the split-step method can be made exact by taking the<br> 
+analysis of the eigenvalues from the first link and considering a superposition of "wavefunctions" with <br>
+the non-linear part being given s the solution of $exp(g|\psi|^2)|\psi| = z$ or $\psi = \pm\sqrt( -g^2|z|^2 )$<br>
+Whether this is a coincidence is stil unknown.
