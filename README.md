@@ -3,6 +3,7 @@ Alternative representation of Cellular Automata with Circulant Convolution Filte
 
 1D cases<br>
 spectral1D.m : A split-step method from the spectral decomposition of circulant filters<br>
+Wheels1D.m   : Example of an alternative isentropic encoding for the study of analog machines w/out waste heat<br> 
 
 2D cases (Game-of-Life)<br>   
 liveon.m     : Simulates a 2D CA with a particular rule loaded at initialization level <br>
