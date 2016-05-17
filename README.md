@@ -24,7 +24,7 @@ Use v = reshape(mat, 1, dim*dim) to feed the liveon(v, ...) function
 
 Change liferule with your own function for other CA types.
 
-Comments:
+Technical Comments<br>
 Details on the spectral representation of circulant filters are in the relevant Wikipedia's lemma<br>
 https://en.wikipedia.org/wiki/Circulant_matrix<br>
 
