@@ -26,10 +26,10 @@ Change liferule with your own function for other CA types.
 
 Comments:
 Details on the spectral representation of circulant filters are in the relevant Wikipedia's lemma<br>
-<a href="https://en.wikipedia.org/wiki/Circulant_matrix"></a>
+https://en.wikipedia.org/wiki/Circulant_matrix<br>
 
-Details on pseudo-spectral methods are in the below link
-<a href="https://en.wikipedia.org/wiki/Split-step_method"></a>
+Details on pseudo-spectral methods are in the below link<br>
+https://en.wikipedia.org/wiki/Split-step_method<br>
 
 The peculiar analogy in the spectral1D code with the split-step method can be made exact by taking the<br> 
 analysis of the eigenvalues from the first link and considering a superposition of "wavefunctions" with <br>
