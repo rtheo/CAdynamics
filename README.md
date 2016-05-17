@@ -13,7 +13,7 @@ kernel.m     : Implements rotations of the kernel vector for a 2D lattice<br>
 kertest.m    : Shows an image of the Interaction Kernal as a matrix<br>
 gmap.m       : Computes a global map of a 2D CA for all input strings of a given length<br>
 
-Auxulliary<br>
+Auxilliary<br>
 drawtool.m
 
 Use mat = drawtool(init, dim,...) to make initial conditions as square arrays in three modes<br>
@@ -36,3 +36,9 @@ The peculiar analogy in the spectral1D code with the split-step method can be ma
 analysis of the eigenvalues from the first link and considering a superposition of "wavefunctions" with <br>
 the non-linear part being given as the solution of http://mathurl.com/jzq7sxy.png or http://mathurl.com/hhco7xm.png<br>
 with W the Lambert's function. Whether this is just a coincidence may be a matter of interpretation.
+
+The "wheels" trick explained in the comments uses the same filter technique on a different encoding.<br>
+An example of wheels1D(round(rand(1,100)), 110, 100) is shown in 110rand using the Turing complete 110 rule<br>
+<p align="center">
+  <img src="https://github.com/rtheo/CAdynamics/blob/master/110rand.jpg" width="350"/>
+</p>
