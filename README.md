@@ -79,9 +79,9 @@ ifft of the summand of these three signals will result into the same address fie
 and "Wheels1D.m"
 
 Performing a musical encoding requires a slight alteration in the inter-frequency spacing. One just starts from the lowest<br>
-octave considering a superposition like a sequence of notes ABCDEFGABCDEFG... played all together like a chord.<br> 
-Then one separates even and odd positions where presence of an odd note representes the presence of a bit and presence<br> 
-of an even one the absence of a bit. Only disadvantage in this case is the low capacity of the resulting musical register<br> in the audible spectrum. A similar variant could be given with the aid of the ancient 
+octave considering a superposition like a sequence of notes ABCDEFGABCDEFG... acorss increasing frequency octaves played<br> all together like a chord. All spectral coefficients are taken equal and cosntant. Then one separates even and odd positions<br> 
+where presence of an odd note representes the presence of a bit and presence of an even one the absence of a bit. Only<br> disadvantage in this case is the low capacity of the resulting musical register<br> in the audible spectrum. A similar <br>
+variant could be given with the aid of the ancient 
 <a href="https://en.wikipedia.org/wiki/Pythagorean_tuning">Pythagorian</a> scale.
 
 Building a particular (continuous) dynamical system able to apply the particular "program" given as the harmonic encoding<br>
