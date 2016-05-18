@@ -81,7 +81,8 @@ and "Wheels1D.m"
 Performing a musical encoding requires a slight alteration in the inter-frequency spacing. One just starts from the lowest<br>
 octave considering a superposition like a sequence of notes ABCDEFGABCDEFG... played all together like a chord.<br> 
 Then one separates even and odd positions where presence of an odd note representes the presence of a bit and presence<br> 
-of an even one the absence of a bit. Only disadvantage in this case is the low capacity of the resulting musical register<br> in the audible spectrum.
+of an even one the absence of a bit. Only disadvantage in this case is the low capacity of the resulting musical register<br> in the audible spectrum. A similar variant could be given with the aid of the ancient 
+<a href="https://en.wikipedia.org/wiki/Pythagorean_tuning">Pythagorian</a> scale.
 
 Building a particular (continuous) dynamical system able to apply the particular "program" given as the harmonic encoding<br>
 of the original CA rule is a different engineering problem and could be dealt in a variety of ways using eg. vector coding <br>
