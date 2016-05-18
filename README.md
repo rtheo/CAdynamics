@@ -64,3 +64,7 @@ over time could be made audible in an appropriate bandwidth up to say, 32 kHz ru
 allows in the case of a harmonic encoding a direct mapping into the recently found theory of
 <a href="https://en.wikipedia.org/wiki/Orbifold#Music_theory">Musical Orbifolds</a><br>
 Hence, in a sense orbifolds can also be considered as equivalent models for analog universal computation in a harmonic encoding.
+
+Construction of such a machine or its emulator can take advantage of both 
+<a href="https://en.wikipedia.org/wiki/Additive_synthesis">Additive</a> as well as 
+<a href="https://en.wikipedia.org/wiki/Additive_synthesis#Inverse_FFT_synthesis">IFFT</a> Synthesis techniques<br>
