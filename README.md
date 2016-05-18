@@ -58,7 +58,8 @@ of all computations into a subset of harmonic analysis. This requires recognizin
 A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter apart from <br>
 the exact message encoded).
 
-B. <it><b>Pluribus Unum Principle:</it></b>The application of spectral methods via a transcription of the "Wheels" technique directly into the spectrum of a unique<br> signal allows to make any such model parallel computation into an analog model corresponding to a particular dynamical system acting on a single signal.<br>
+B. <it><b>Pluribus Unum Principle:</it></b>The application of spectral methods via a transcription of the "Wheels" technique directly into the<br> 
+spectrum of a unique signal allows to make any such model parallel computation into an analog model corresponding to a<br> particular dynamical system acting on a single signal.<br>
 
 C. If an equitempered harmonic scale is to be used for tuning such a machine then a single signal and its transformations <br>
 over time could be made audible in an appropriate bandwidth up to say, 32 kHz running aross all octaves. Coexistence<br>
