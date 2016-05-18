@@ -78,6 +78,9 @@ such more to form signals standing for cyclic permutations plus/minus one positi
 ifft of the summand of these three signals will result into the same address field as in the "digital" codes 'spectral1D.m'<br>
 and "Wheels1D.m"
 
+All technical details given here are not by any means restricted to the audible spectrum which is solely used as a means of<br>
+of demonstration. As a matter of fact, any abstract system having a Hilbert Space could be used givenb the existence of some<br> method of selectively picking up any subset of such states at each iteration step.
+
 Performing a musical encoding requires a slight alteration in the inter-frequency spacing. One just starts from the lowest<br>
 octave considering a superposition like a sequence of notes ABCDEFGABCDEFG... acorss increasing frequency octaves<br> 
 played all together like a chord. All spectral coefficients are taken equal and cosntant. Then one separates even and odd<br> positions where presence of an odd note representes the presence of a bit and presence of an even one the absence of a bit.<br>
