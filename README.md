@@ -47,5 +47,5 @@ An example of wheels1D(round(rand(1,100)), 110, 100) is shown in 110rand using t
   <img src="https://github.com/rtheo/CAdynamics/blob/master/110rand.jpg" width="350"/>
 </p>
 
-<b>The Sound of Universal Computation</b>
-
+<b>MUSARITHMICA: The Sound of Universal Computation</b>
+The title of the code is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend with his <a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a>
