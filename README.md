@@ -78,6 +78,11 @@ such more to form signals standing for cyclic permutations plus/minus one positi
 ifft of the summand of these three signals will result into the same address field as in the "digital" codes 'spectral1D.m'<br>
 and "Wheels1D.m"
 
+Performing a musical encoding requires a slight alteration in the inter-frequency spacing. One just starts from the lowest<br>
+octave considering a superposition like a sequence of notes ABCDEFGABCDEFG... played all together like a chord. Then one<br>
+separates even and odd positions where presence of an odd note representes the presence of a bit and presence of an even one<br> the absence of a bit. Only disadvantage in this case is the low capacity of the resulting musical register in the<br>
+audible spectrum.
+
 Building a particular (continuous) dynamical system able to apply the particular "program" given as the harmonic encoding<br>
 of the original CA rule is a different engineering problem and could be dealt in a variety of ways using eg. vector coding <br>
 and generic Neural Network techniques. For building an emulator is enough to take all appropriate frequency shifts via a single<br> loop although this is neither optimal nor the speediest implementation possible. It suffices though to give the<br>
