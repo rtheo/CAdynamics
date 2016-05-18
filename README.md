@@ -94,7 +94,7 @@ used by information engineers one can also separate odd and even spectral coeffi
  
  It should be noted that there is a much more compact method of isospectral encoding for a powerset of 2^N bit-strings<br>
  Given a bit-block counter, each and every word is analyzed into its constituent alternating bolcks of zeros and ones.<br>
- For instance, "00110101" -> [-2, 2, -1, 1, -1, 1]. As this is always an alternating sequence it can be turned into its<br>
+ For instance, "11010100" -> [2, -1, 1, -1, 1, -2]. As this is always an alternating sequence it can be turned into its<br>
  "monic" form by extracting a sign bit in front as 0/1. Normalizing the above with the sum-of-squares and taking them as<br>
  spectral coefficients allows writing  lesser frequencies in a harmonic interval at the same time guaranteeing the isospectral<br> character of the encoding. This method though is difficult to emulate for the rule application and is not<br>
  followed here.
