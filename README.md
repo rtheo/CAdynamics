@@ -49,15 +49,16 @@ An example of wheels1D(round(rand(1,100)), 110, 100) is shown in 110rand using t
 
 <b>MUSARITHMICA: The Sound of Universal Computation</b><br>
 
-The title of the code is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend with his 
-<a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a> algorithm<br>
+The title of the code is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend<br> 
+with his <a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a> algorithm<br>.
+
 The purpose here is exactly the opposite and it is about a proof-of-concept on the existence of a mapping of the set<br> 
 of all computations into a subset of harmonic analysis. This requires recognizing three principles:<br>
 
 A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter apart from <br>
 the exact message encoded).
 
-B. The application of spectral methods via a transcription of the "Wheels" technique directly into the spectrum of a unique<br> signal allows to make any such model parallel computation into an analog model corresponding to a particular dynamical system acting on a single signal.<br>
+B. <it><b>Pluribus Unum Principle:</it></b>The application of spectral methods via a transcription of the "Wheels" technique directly into the spectrum of a unique<br> signal allows to make any such model parallel computation into an analog model corresponding to a particular dynamical system acting on a single signal.<br>
 
 C. If an equitempered harmonic scale is to be used for tuning such a machine then a single signal and its transformations <br>
 over time could be made audible in an appropriate bandwidth up to say, 32 kHz running aross all octaves. Coexistence<br>
