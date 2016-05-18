@@ -75,8 +75,7 @@ One can take advantage of the fact that a circulant operator admits also a repre
 cyclic generators. For a symmetric neighborhood this amounts to only three such matrices. One can then use a basic<br>
 encoding of a Fourier series starting from a fundamental with an appropriate inter-frequency span and then take two<br>
 such more to form signals standing for cyclic permutations plus/minus one position from the original one. Taking the<br>
-ifft of the summand of these three signals will result into the same address field as in the "digital" codes 'spectral1D.m'<br>
-and "Wheels1D.m"
+ifft of the summand of these three signals will result into the same address field as in the "digital" code "Wheels1D.m"
 
 All technical details given here are not by any means restricted to the audible spectrum which is solely used as a means of<br>
 of demonstration. As a matter of fact, any abstract system having a Hilbert Space could be used givenb the existence of some<br> method of selectively picking up any subset of such states at each iteration step.
