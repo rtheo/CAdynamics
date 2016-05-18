@@ -90,7 +90,7 @@ resulting musical register in the audible spectrum. A similar variant could be g
 
 The above guranatees isospectral computation. If you also want to guarantee the isentropic character in the ordinary sense<br>
 used by information engineers one can also separate odd and even spectral coefficients so as to have the later been half <br>
- of the first or the reverse. Then any histogram used to compute standard Shannon's entropy would be balanced around log(2)<br> just as in the original "digital" version of the 'spectral1D' code.
+ of the first or the reverse and spread around half of the interfrequency intervals with some Gaussian fit. Then any histogram<br> used to compute standard Shannon's entropy would be balanced around log(2) just as in the original "digital"<br> version of the 'spectral1D' code.
 
 Building a particular (continuous) dynamical system able to apply the particular "program" given as the harmonic encoding<br>
 of the original CA rule is a different engineering problem and could be dealt in a variety of ways using eg. vector coding <br>
