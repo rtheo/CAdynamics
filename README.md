@@ -15,6 +15,7 @@ gmap.m       : Computes a global map of a 2D CA for all input strings of a given
 
 Auxilliary<br>
 drawtool.m
+musarithmica.m
 
 Use mat = drawtool(init, dim,...) to make initial conditions as square arrays in three modes<br>
 1 -> random square array<br>
@@ -23,7 +24,10 @@ Use mat = drawtool(init, dim,...) to make initial conditions as square arrays in
 
 Use v = reshape(mat, 1, dim*dim) to feed the liveon(v, ...) function 
 
-Change liferule with your own function for other CA types.
+Change liferule.m with your own function for other CA types.
+
+The 'musarithmica' code for the complete transcription of any automaton in to a musical score is forthcoming<BR>
+Motivation behind this project is explained in the technical section.<br>
 
 Technical Comments<br>
 Details on the spectral representation of circulant filters are in the relevant Wikipedia's lemma<br>
@@ -42,3 +46,6 @@ An example of wheels1D(round(rand(1,100)), 110, 100) is shown in 110rand using t
 <p align="center">
   <img src="https://github.com/rtheo/CAdynamics/blob/master/110rand.jpg" width="350"/>
 </p>
+
+<b>The Sound of Universal Computation</b>
+
