@@ -51,7 +51,8 @@ An example of wheels1D(round(rand(1,100)), 110, 100) is shown in 110rand using t
 
 The title of the code is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend with his 
 <a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a> algorithm<br>
-The purpose here is exactly the opposite and it is threefold:<br>
+The purpose here is exactly the opposite and it is about a proof-of-concept on the existence of a mapping of the set<br> 
+of all computations into a subset of harmonic analysis. This requires recognizing three principles:<br>
 
 A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter apart from <br>
 the exact message encoded).
