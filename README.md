@@ -91,6 +91,13 @@ resulting musical register in the audible spectrum. A similar variant could be g
 The above guranatees isospectral computation. If you also want to guarantee the isentropic character in the ordinary sense<br>
 used by information engineers one can also separate odd and even spectral coefficients so as to have the later been half <br>
  of the first or the reverse and spread around half of the interfrequency intervals with some Gaussian fit. Then any histogram<br> used to compute standard Shannon's entropy would be balanced around log(2) just as in the original "digital" version<br> of the 'spectral1D' code.
+ 
+ It should be noted that there is a much more compact method of isospectral encoding for a powerset of 2^N bit-strings<br>
+ Given a bit-block counter, each and every word is analyzed into its constituent alternating bolcks of zeros and ones.<br>
+ For instance, "00110101" -> [-2, 2, -1, 1, -1, 1]. As this is always an alternating sequence it can be turned into its<br>
+ "monic" form by extracting a sign bit in front as 0/1. Normalizing the above with the sum-of-squares and taking them as<br>
+ spectral coefficients allows writing  lesser frequencies in a harmonic interval at the same time guaranteeing the isospectral<br> character of the encoding. This method though is difficult to emulate for the rule application and is not<br>
+ followed here.
 
 Building a particular (continuous) dynamical system able to apply the particular "program" given as the harmonic encoding<br>
 of the original CA rule is a different engineering problem and could be dealt in a variety of ways using eg. vector coding <br>
