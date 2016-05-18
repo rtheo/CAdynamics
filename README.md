@@ -65,8 +65,8 @@ C. If an equitempered harmonic scale is to be used for tuning such a machine the
 over time could be made audible in an appropriate bandwidth up to say, 32 kHz running aross all octaves. Coexistence<br>
 (superposition) of a multiplicity of states from an alphabet in one and the same signal (<it>"Pluribus Unum"</it> Principle) allows<br> 
 in the case of a harmonic encoding a direct mapping into the recently found theory of
-<a href="https://en.wikipedia.org/wiki/Orbifold#Music_theory">Musical Orbifolds</a>. Hence<br>
-in a sense orbifolds can also be considered as equivalent models for analog universal computation in a harmonic encoding.
+<a href="https://en.wikipedia.org/wiki/Orbifold#Music_theory">Musical Orbifolds</a>. Hence in a sense<br>
+orbifolds can also be considered as equivalent models for analog universal computation in a harmonic encoding.
 
 Construction of such a machine or its emulator can take advantage of both 
 <a href="https://en.wikipedia.org/wiki/Additive_synthesis">Additive</a> as well as 
