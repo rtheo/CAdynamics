@@ -88,6 +88,10 @@ A binary word like "100110" can then be encoded as "ADFGBE". Only disadvantage i
 resulting musical register in the audible spectrum. A similar variant could be given with the aid of the ancient 
 <a href="https://en.wikipedia.org/wiki/Pythagorean_tuning">Pythagorian</a> scale.
 
+The above guranatees isospectral computation. If you also want to guarantee the isentropic character in the ordinary sense<br>
+used by information engineers an additional measure is to separate odd and even spectral coefficients so as to have the <br>
+later been half of the first. Then any histogram used to compute standard Shannon's entropy would be balanced around log(2).
+
 Building a particular (continuous) dynamical system able to apply the particular "program" given as the harmonic encoding<br>
 of the original CA rule is a different engineering problem and could be dealt in a variety of ways using eg. vector coding <br>
 and generic Neural Network techniques. For building an emulator is enough to take all appropriate frequency shifts via a single<br> loop although this is neither optimal nor the speediest implementation possible. It suffices though to give the<br>
