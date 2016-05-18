@@ -56,11 +56,11 @@ The purpose here is exactly the opposite and it is threefold:<br>
 A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter apart from <br>
 the exact message encoded).
 
-B. The application of spectral methods via a transcription of the "Wheels" technique directly into the spectrum of a unique<br> signal allows to make any such model parallel computation into an analog model corresponding to a particular dynamical system.<br>
+B. The application of spectral methods via a transcription of the "Wheels" technique directly into the spectrum of a unique<br> signal allows to make any such model parallel computation into an analog model corresponding to a particular dynamical system acting on a single signal.<br>
 
-C. If an equitempered harmonic scale is to be used for tuning such a machine then a sngle signal and its transformations <br>
+C. If an equitempered harmonic scale is to be used for tuning such a machine then a single signal and its transformations <br>
 over time could be made audible in an appropriate bandwidth up to say, 32 kHz running aross all octaves. Coexistence<br>
 (superposition) of a multiplicity of states from an alphabet in one and the same signal (<it>"Pluribus Unum"</it> Principle)<br> 
 allows in the case of a harmonic encoding a direct mapping into the recently found theory of
 <a href="https://en.wikipedia.org/wiki/Orbifold#Music_theory">Musical Orbifolds</a><br>
-Hence, in a sense orbifolds can also be considered as equivalent models for universal computation in a harmonic encoding.
+Hence, in a sense orbifolds can also be considered as equivalent models for analog universal computation in a harmonic encoding.
