@@ -47,5 +47,20 @@ An example of wheels1D(round(rand(1,100)), 110, 100) is shown in 110rand using t
   <img src="https://github.com/rtheo/CAdynamics/blob/master/110rand.jpg" width="350"/>
 </p>
 
-<b>MUSARITHMICA: The Sound of Universal Computation</b>
-The title of the code is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend with his <a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a>
+<b>MUSARITHMICA: The Sound of Universal Computation</b><br>
+
+The title of the code is a tribute to the great master <a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a> who in a sense preceded Babbage to a limited extend with his 
+<a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarithmica</a> algorithm<br>
+The purpose here is exactly the opposite and it is threefold:<br>
+
+A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter apart from <br>
+the exact message encoded).
+
+B. The application of spectral methods via a transcription of the "Wheels" technique directly into the spectrum of a unique<br> signal allows to make any such model parallel computation into an analog model corresponding to a particular dynamical system.<br>
+
+C. If an equitempered harmonic scale is to be used for tuning such a machine then a sngle signal and its transformations <br>
+over time could be made audible in an appropriate bandwidth up to say, 32 kHz running aross all octaves. Coexistence<br>
+(superposition) of a multiplicity of states from an alphabet in one and the same signal (<it>"Pluribus Unum"</it> Principle)<br> 
+allows in the case of a harmonic encoding a direct mapping into the recently found theory of
+<a href="https://en.wikipedia.org/wiki/Orbifold#Music_theory">Musical Orbifolds</a><br>
+Hence, in a sense orbifolds can also be considered as equivalent models for universal computation in a harmonic encoding.
