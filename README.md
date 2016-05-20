@@ -62,7 +62,7 @@ with his <a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarith
 The purpose here is exactly the opposite and it is about a proof-of-concept on the existence of a mapping of the set<br> 
 of all computations into a subset of harmonic analysis. This requires recognizing three principles:<br>
 
-A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter given by the<br>
+A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes here a freely adjustable parameter given by the<br>
 unique spectra lcoefficient apart from the exact message encoded). The essence of this can be understood with analogical<br>
 thinking by stating that the bits are to the integers as the frequencies are to a time domain signal and by the same token,<br> 
 as eigenstates are to a cavity or an abstract system on a Hilbert space.
@@ -80,8 +80,8 @@ orbifolds can also be considered as equivalent models for analog universal compu
 Construction of such a machine or its emulator can take advantage of both 
 <a href="https://en.wikipedia.org/wiki/Additive_synthesis">Additive</a> as well as 
 <a href="https://en.wikipedia.org/wiki/Additive_synthesis#Inverse_FFT_synthesis">IFFT</a> Synthesis techniques<br>
-One can take advantage of the fact that a circulant operator when acting on teh frequency domain admits a much simpler<br> representation in teh time domain as a multiplication with only a vector of eigenvalues. The effort is to aoivd as much<br>
- One can then use a basic encoding of a Fourier series starting from a fundamental with an appropriate inter-frequency<br> span and then find a udnique class of dynamical systems able to mimic the behavior of the "digital" code "Wheels1D.m"<br>
+One can take advantage of the fact that a circulant operator when acting on teh frequency domain admits a much simpler<br> representation in the time domain as a multiplication with only a vector of eigenvalues. The effort is to avoid as much as<br>
+possible the use of fft and its inverses. One can then use a basic encoding of a Fourier series starting from a fundamental<br> with an appropriate inter-frequency span and then find a udnique class of dynamical systems able to mimic the behavior of the "digital" code "Wheels1D.m"<br>
 
 All technical details given here are not by any means restricted to the audible spectrum which is solely used as a means of<br>
 of demonstration. As a matter of fact, any abstract system having a Hilbert Space could be used given the existence of some<br> 
