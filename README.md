@@ -5,7 +5,7 @@ Alternative representation of Cellular Automata with Circulant Convolution Filte
 spectral1D.m : A split-step method from the spectral decomposition of circulant filters<br>
 Wheels1D.m   : Example of an alternative isentropic encoding for the study of analog machines w/out waste heat<br> 
 
-2D cases (Game-of-Life)<br>   
+2D cases (Game-of-Life - distinction is superficial in this technique)<br>   
 liveon.m     : Simulates a 2D CA with a particular rule loaded at initialization level <br>
 liferule.m   : Initializes Game-of-Life Rule in equivalent 1D Lookup Table form<br> 
 kerinit.m    : Initializes Kernel vector<br>
@@ -36,6 +36,11 @@ https://en.wikipedia.org/wiki/Circulant_matrix<br>
 
 Details on pseudo-spectral methods are in the below link<br>
 https://en.wikipedia.org/wiki/Split-step_method<br>
+
+Superficiality of the CA dimension here is to be understood as follows: All correlations and topological information of<br>
+a discretized grid can be thought of as imposed/enforeced on an equivalent single signal by an interaction kernel. Any such<br> discretized world is then isomorphic to a signal of only temporal dimensionality. It is the externally imposed<br> interaction that builds the spatial dimensionality as a result of the recursion performed. Change appropriately the kernel<br>
+and you can have any dimensionality assuming inf. precision.
+
 
 The peculiar analogy in the spectral1D code with the split-step method can be made exact by taking the<br> 
 analysis of the eigenvalues from the first link and considering a superposition of "wavefunctions" with <br>
