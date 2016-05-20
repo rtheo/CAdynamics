@@ -11,11 +11,11 @@ liferule.m   : Initializes Game-of-Life Rule in equivalent 1D Lookup Table form<
 kerinit.m    : Initializes Kernel vector<br>
 kernel.m     : Implements rotations of the kernel vector for a 2D lattice<br>
 kertest.m    : Shows an image of the Interaction Kernal as a matrix<br>
-gmap.m       : Computes a global map of a 2D CA for all input strings of a given length<br>
+gmap.m       : Computes a global map of a 2D CA for the powerset of all input strings of a given length<br>
 
 Auxilliary<br>
-drawtool.m<br>
-musarithmica.m<br> (forthcoming)
+drawtool.m  <br>
+musarithmica.m (forthcoming)<br>
 
 Use mat = drawtool(init, dim,...) to make initial conditions as square arrays in three modes<br>
 1 -> random square array<br>
