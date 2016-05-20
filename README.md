@@ -15,7 +15,7 @@ gmap.m       : Computes a global map of a 2D CA for all input strings of a given
 
 Auxilliary<br>
 drawtool.m<br>
-musarithmica.m<br>
+musarithmica.m<br> (forthcoming)
 
 Use mat = drawtool(init, dim,...) to make initial conditions as square arrays in three modes<br>
 1 -> random square array<br>
@@ -26,8 +26,8 @@ Use v = reshape(mat, 1, dim*dim) to feed the liveon(v, ...) function
 
 Change liferule.m with your own function for other CA types.
 
-The 'musarithmica' code for the complete transcription of any automaton in to a musical score is forthcoming<BR>
-Motivation behind this project is explained in the technical section.<br>
+The 'musarithmica' code for the complete transcription of any automaton in to a musical score is a future project<BR>
+Motivation behind this project is explained in the last section of the technical notes.<br>
 
 <b>Technical Notes</b>
 
