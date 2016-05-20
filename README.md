@@ -81,7 +81,9 @@ of demonstration. As a matter of fact, any abstract system having a Hilbert Spac
 programmable analog computer one must also consult the basis of computing automata to filter out those cases that are more<br>
 amenable to a direct transcription. One should recall that there are equivalent 
 <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a> systems known as <br>
-<a href="https://en.wikipedia.org/wiki/Semi-Thue_system">String Rewriting Automata</a>
+<a href="https://en.wikipedia.org/wiki/Semi-Thue_system">String Rewriting Automata</a>. There are also classes of programming<br>
+languages that are equivalent to non-Von Neumann architectures as for instance the 
+<a href="https://en.wikipedia.org/wiki/Lisp_machine">LISP computer</a><br>
 
 Performing a musical encoding requires a slight alteration in the inter-frequency spacing. One just starts from the lowest<br>
 octave considering a superposition like a sequence of notes ABCDEFGABCDEFG... acorss increasing frequency octaves<br> 
