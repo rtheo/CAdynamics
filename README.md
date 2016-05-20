@@ -15,7 +15,7 @@ gmap.m       : Computes a global map of a 2D CA for the powerset of all input st
 
 Auxilliary<br>
 drawtool.m  <br>
-musarithmica.m (forthcoming)<br>
+musarithmica.m (a forthcoming CA synthi computer emulator)<br>
 
 Use mat = drawtool(init, dim,...) to make initial conditions as square arrays in three modes<br>
 1 -> random square array<br>
