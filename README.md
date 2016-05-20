@@ -83,9 +83,10 @@ amenable to a direct transcription. One should recall that there are equivalent
 <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a> systems known as <br>
 <a href="https://en.wikipedia.org/wiki/Semi-Thue_system">String Rewriting Automata</a>. There are also classes of programming
 languages that are equivalent to non-Von Neumann<br> 
-architectures as for instance the <a href="https://en.wikipedia.org/wiki/Lisp_machine">LISP machine</a><br>.
-Even <a href="https://en.wikipedia.org/wiki/Multi-agent_system">Multi-Agent Systems</a> or Reaction-Diffusion Systems<br>
-have been proven to be Turing complete with certain implications for biological systems as well. Hence, the repertoire one<br>
+architectures as for instance the <a href="https://en.wikipedia.org/wiki/Lisp_machine">LISP machine</a>.
+Even <a href="https://en.wikipedia.org/wiki/Multi-agent_system">Multi-Agent Systems</a> or Reaction-Diffusion Systems
+have been proven<br> 
+to be Turing complete with certain implications for biological systems as well. Hence, the repertoire one<br>
 now has to choose from is sufficient to consider the advance of programmable analog machines as a future possibility.<br>
 
 Performing a musical encoding requires a slight alteration in the inter-frequency spacing. One just starts from the lowest<br>
