@@ -77,9 +77,10 @@ One can take advantage of the fact that a circulant operator when acting on teh 
  One can then use a basic encoding of a Fourier series starting from a fundamental with an appropriate inter-frequency<br> span and then find a udnique class of dynamical systems able to mimic the behavior of the "digital" code "Wheels1D.m"<br>
 
 All technical details given here are not by any means restricted to the audible spectrum which is solely used as a means of<br>
-of demonstration. As a matter of fact, any abstract system having a Hilbert Space could be used given the existence of some<br> method of selectively picking up any subset of such states at each iteration step. In order to complete a fully<br>
-programmable analog computer one must also consult the basis of computing automata to filter out those cases that are more<br>
-amenable to a direct transcription. One should recall that there are equivalent 
+of demonstration. As a matter of fact, any abstract system having a Hilbert Space could be used given the existence of some<br> 
+method of selectively picking up any subset of such states at each iteration step. In order to complete a fully programmable<br>
+ analog computer one must also consult the basis of computing automata to filter out those cases that are more amenable<br>
+to a direct transcription. One should recall that there are equivalent 
 <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a> systems known as <br>
 <a href="https://en.wikipedia.org/wiki/Semi-Thue_system">String Rewriting Automata</a>. There are also classes of programming
 languages that are equivalent to non-Von Neumann<br> 
