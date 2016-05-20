@@ -56,9 +56,10 @@ with his <a href="https://en.wikipedia.org/wiki/Arca_Musarithmica">Arca Musarith
 The purpose here is exactly the opposite and it is about a proof-of-concept on the existence of a mapping of the set<br> 
 of all computations into a subset of harmonic analysis. This requires recognizing three principles:<br>
 
-A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter apart from <br>
-the exact message encoded). The essence of this can be understood with analogical thinking by stating that the bits are to<br>
-the integers as the frequencies are to a time domain signal and by the same token, as eigenstates are to a cavity or an<br> abstract system on a Hilbert space.
+A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter given by the<br>
+unique spectra lcoefficient apart from the exact message encoded). The essence of this can be understood with analogical<br>
+thinking by stating that the bits are to the integers as the frequencies are to a time domain signal and by the same token,<br> 
+as eigenstates are to a cavity or an abstract system on a Hilbert space.
 
 B. <it><b>Pluribus Unum Principle:</it></b>The application of spectral methods via a transcription of the "Wheels" technique directly into the<br> 
 spectrum of a unique signal allows to make any such model parallel computation into an analog model corresponding to a<br> particular dynamical system acting on a single signal.<br>
