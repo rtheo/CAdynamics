@@ -29,7 +29,7 @@ Change liferule.m with your own function for other CA types.
 The 'musarithmica' code for the complete transcription of any automaton in to a musical score is forthcoming<BR>
 Motivation behind this project is explained in the technical section.<br>
 
-<b>Technical Notes<b>
+<b>Technical Notes</b>
 
 Details on the spectral representation of circulant filters are in the relevant Wikipedia's lemma<br>
 https://en.wikipedia.org/wiki/Circulant_matrix<br>
