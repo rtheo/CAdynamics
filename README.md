@@ -64,23 +64,24 @@ B. <it><b>Pluribus Unum Principle:</it></b>The application of spectral methods v
 spectrum of a unique signal allows to make any such model parallel computation into an analog model corresponding to a<br> particular dynamical system acting on a single signal.<br>
 
 C. If an equitempered harmonic scale is to be used for tuning such a machine then a single signal and its transformations <br>
-over time could be made audible in an appropriate bandwidth up to say, 20 kHz running aross all octaves. Coexistence<br>
+over time could be made audible in an appropriate bandwidth up to say, 20-30 kHz running aross all octaves. Coexistence<br>
 (superposition) of a multiplicity of states from an alphabet in one and the same signal (<it>"Pluribus Unum"</it> Principle) allows<br> 
 in the case of a harmonic encoding a direct mapping into the recently found theory of
 <a href="https://en.wikipedia.org/wiki/Orbifold#Music_theory">Musical Orbifolds</a>. Hence in a sense<br>
-orbifolds can also be considered as equivalent models for analog universal computation in a harmonic encoding.
+orbifolds can also be considered as equivalent models for analog universal computation in a poly-harmonic encoding.
 
 Construction of such a machine or its emulator can take advantage of both 
 <a href="https://en.wikipedia.org/wiki/Additive_synthesis">Additive</a> as well as 
 <a href="https://en.wikipedia.org/wiki/Additive_synthesis#Inverse_FFT_synthesis">IFFT</a> Synthesis techniques<br>
-One can take advantage of the fact that a circulant operator admits also a representation as a set of irreducible<br>
-cyclic generators. For a symmetric neighborhood this amounts to only three such matrices. One can then use a basic<br>
-encoding of a Fourier series starting from a fundamental with an appropriate inter-frequency span and then take two<br>
-such more to form signals standing for cyclic permutations plus/minus one position from the original one. Taking the<br>
-ifft of the summand of these three signals will result into the same address field as in the "digital" code "Wheels1D.m"
+One can take advantage of the fact that a circulant operator when acting on teh frequency domain admits a much simpler<br> representation in teh time domain as a multiplication with only a vector of eigenvalues. The effort is to aoivd as much<br>
+ One can then use a basic encoding of a Fourier series starting from a fundamental with an appropriate inter-frequency<br> span and then find a udnique class of dynamical systems able to mimic the behavior of the "digital" code "Wheels1D.m"<br>
 
 All technical details given here are not by any means restricted to the audible spectrum which is solely used as a means of<br>
-of demonstration. As a matter of fact, any abstract system having a Hilbert Space could be used givenb the existence of some<br> method of selectively picking up any subset of such states at each iteration step.
+of demonstration. As a matter of fact, any abstract system having a Hilbert Space could be used given the existence of some<br> method of selectively picking up any subset of such states at each iteration step. In order to complete a fully<br>
+programmable analog computer one must also consult the basis of computing automata to filter out those cases that are more<br>
+amenable to a direct transcription. One should recall that there are equivalent 
+<a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a> systems known as <br>
+<a href="https://en.wikipedia.org/wiki/Semi-Thue_system">String Rewriting Automata</a>
 
 Performing a musical encoding requires a slight alteration in the inter-frequency spacing. One just starts from the lowest<br>
 octave considering a superposition like a sequence of notes ABCDEFGABCDEFG... acorss increasing frequency octaves<br> 
