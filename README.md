@@ -39,8 +39,8 @@ https://en.wikipedia.org/wiki/Split-step_method<br>
 
 Superficiality of the CA dimension here is to be understood as follows: All correlations and topological information of a<br>
 discretized grid can be thought of as imposed/enforced on an equivalent single signal by an interaction kernel. Any such<br> discretized world is then isomorphic to a signal of only temporal dimensionality. It is the externally imposed interaction that<br> 
-builds the spatial dimensionality as a result of the recursion performed. Change appropriately the kernel<br>
-and you can have any dimensionality assuming inf. precision.
+builds the spatial dimensionality as a result of the recursion performed. Change appropriately the kernel and you can have<br>
+any dimensionality assuming unbounded length.
 
 
 The peculiar analogy in the spectral1D code with the split-step method can be made exact by taking the<br> 
