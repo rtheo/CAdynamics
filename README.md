@@ -29,7 +29,8 @@ Change liferule.m with your own function for other CA types.
 The 'musarithmica' code for the complete transcription of any automaton in to a musical score is forthcoming<BR>
 Motivation behind this project is explained in the technical section.<br>
 
-Technical Comments<br>
+<b>Technical Notes<b>
+
 Details on the spectral representation of circulant filters are in the relevant Wikipedia's lemma<br>
 https://en.wikipedia.org/wiki/Circulant_matrix<br>
 
@@ -56,7 +57,8 @@ The purpose here is exactly the opposite and it is about a proof-of-concept on t
 of all computations into a subset of harmonic analysis. This requires recognizing three principles:<br>
 
 A. The existence of constant maximal entropic encodings in a Fourier domain signifies a deviation from ordinary Shannon<br> channels where capacity is no more tied up solely to the S/N ratio (SNR becomes a freely adjustable parameter apart from <br>
-the exact message encoded).
+the exact message encoded). The essence of this can be understood with analogical thinking by stating that the bits are to<br>
+the integers as the frequencies are to a time domain signal and by the same token, as eigenstates are to a cavity or an<br> abstract system on a Hilbert space.
 
 B. <it><b>Pluribus Unum Principle:</it></b>The application of spectral methods via a transcription of the "Wheels" technique directly into the<br> 
 spectrum of a unique signal allows to make any such model parallel computation into an analog model corresponding to a<br> particular dynamical system acting on a single signal.<br>
