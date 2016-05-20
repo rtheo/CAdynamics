@@ -37,8 +37,9 @@ https://en.wikipedia.org/wiki/Circulant_matrix<br>
 Details on pseudo-spectral methods are in the below link<br>
 https://en.wikipedia.org/wiki/Split-step_method<br>
 
-Superficiality of the CA dimension here is to be understood as follows: All correlations and topological information of<br>
-a discretized grid can be thought of as imposed/enforeced on an equivalent single signal by an interaction kernel. Any such<br> discretized world is then isomorphic to a signal of only temporal dimensionality. It is the externally imposed<br> interaction that builds the spatial dimensionality as a result of the recursion performed. Change appropriately the kernel<br>
+Superficiality of the CA dimension here is to be understood as follows: All correlations and topological information of a<br>
+discretized grid can be thought of as imposed/enforced on an equivalent single signal by an interaction kernel. Any such<br> discretized world is then isomorphic to a signal of only temporal dimensionality. It is the externally imposed interaction that<br> 
+builds the spatial dimensionality as a result of the recursion performed. Change appropriately the kernel<br>
 and you can have any dimensionality assuming inf. precision.
 
 
