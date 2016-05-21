@@ -26,9 +26,6 @@ Use v = reshape(mat, 1, dim*dim) to feed the liveon(v, ...) function
 
 Change liferule.m with your own function for other CA types.
 
-The 'musarithmica' code for the complete transcription of any automaton in to a musical score is a future project<BR>
-Motivation behind this project is explained in the technical notes.<br>
-
 <b>Technical Notes</b>
 
 Details on the spectral representation of circulant filters are in the relevant Wikipedia's lemma<br>
