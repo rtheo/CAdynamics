@@ -7,8 +7,8 @@ for i=1:L^2
 end
 figure(1), imagesc(kk)
 title('Interaction Kernel')
-[D, L] = eig( kk );
-figure(2), plot(L)
+[D, E] = eig( kk ); x = 1:L^2;
+figure(2), plot(x, real(E), x, imag(E))
 title('Eignevalue Spectrum')
 figure(3), imagesc(real(D))
 title('Eigenvector matrix (Real Part)')
