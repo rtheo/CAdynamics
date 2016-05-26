@@ -11,7 +11,8 @@ if isempty(c),
     switch in
         case 1, c = [zeros(1, 11), 1 1 1, zeros(1, 11)];
         case 2, w = zeros(4); for i=1:4, w( i, 4 - i + 1) = 1; end
-                    c = [ w, fliplr( w ) ]; c = [ c; flipud( c ) ]; c = reshape(c, 1, 64);
+                    c = [ w, fliplr( w ) ]; c = [ c; flipud( c ) ]; 
+                    c = zeros(10); c(2:9, 2:9) = cp; c = reshape(c, 1, 100);
         case 3, c = [zeros(1, 11), 1 1 1, zeros(1, 11)]; c(8) = 1; c(19) = 1;
     end
 end
@@ -24,7 +25,7 @@ imagesc( reshape(1-c, L, L) ), pause, colormap gray
 title('Press any key to continue')
 % evolve via BCCB convolution
 for t=1:steps    
-    ptr = k*c'; c = c + r( ptr + 1 );  % discretized pde representation
+    c = c + r( 1 + k*c' );  % discretized pde representation
     if sum(c) == 0, disp(['All cells dead at t = ',num2str(t)]), break, end
     if strcmp(graph, 'L'), imagesc( reshape(1-c, L, L) ), colormap gray, end
     if strcmp(graph, 'h'), imagesc( reshape(ptr, L, L) ), end
