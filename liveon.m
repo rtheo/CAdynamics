@@ -25,12 +25,17 @@ imagesc( reshape(1-c, L, L) ), pause, colormap gray
 title('Press any key to continue')
 % evolve via BCCB convolution
 for t=1:steps    
-     ptr = k*c'; c = c + r( 1 + ptr );  % discretized pde representation
+     ptr = k*c'; cnew = c + r( 1 + ptr );  % discretized pde representation
     if sum(c) == 0, disp(['All cells dead at t = ',num2str(t)]), break, end
     if strcmp(graph, 'L'), imagesc( reshape(1-c, L, L) ), colormap gray, end
     if strcmp(graph, 'h'), imagesc( reshape(ptr, L, L) ), end
     if strcmp(graph, 'hft'), psh = abs( fft(ptr) ); imagesc( fftshift( reshape( psh, L, L) ) ), end
     if strcmp(graph, 'Lft'), psv = abs( fft(c) ); imagesc( fftshift( reshape( psv, L, L) ) ), end
-    title(['Step = ',num2str(t) ]), colormap gray, pause(0.1)
+    if cnew == c, 
+        title(['Fixed Point at ',num2str(t) ]), break;
+    else
+        title(['Step = ',num2str(t) ]), pause(0.1)
+    end
+    c = cnew;
 end
 end
