@@ -9,7 +9,7 @@ q = zeros(1,2*length(q0)); q(1:2:end) = 1;
 idx = 2*find( q0==1 )-1; q(idx) = 0; q(idx+1) = 1; 
 % eigenvalues for circulant filter
 ql = length(q); v = zeros(1,ql); 
-v(1:2:6) = 2.^(0:2); v = circshift(v', -2)' ;
+v(1:2:6) = fliplr( 2.^(0:2) ); v = circshift(v', -2)' ;
 u = fft( v ); qmat = []; 
 for i=1:steps    
     p = round( abs( ifft( u.*fft( q ) ) ) );
