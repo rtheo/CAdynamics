@@ -1,6 +1,6 @@
 function liveon(v, time, graf)
 % Example with direct application of matrix convolution
-% try it with teh simplest blinker oscillator 
+% try it with the simplest blinker 2-period oscillator 
 % c = [zeros(1,6), 1 1 1, zeros(1, 16)]; 
 clc, close all
 L = sqrt( length(v) );
