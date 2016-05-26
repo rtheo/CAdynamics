@@ -6,5 +6,5 @@ end
 % Use ternary encoding for additive rule using transitions only 
 % 1st half: 0 -> 1, 2nd half: 1 -> 0
 half = 2^8; 
-R = [ (s(1:half)==3), - (s(half+1:end)==1) - (s(half+1:end)>3) ];
+R = [ (s(1:half)==4), - (s(half+1:end)==2) - (s(half+1:end)>4) ];
 end
