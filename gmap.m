@@ -1,23 +1,21 @@
-function z = gmap(L)
+function z = gmap(N)
+% Construct global maps for 2D CA over a sequence of N x N square lattices 
+% Reminder: NP procedure!
+% For large number L>4 the ff2n routine should be replaced with a sequential
+% bit-string generator inside the main loop
 clc, close all 
-dim = 2^L; Lsqrt = 2^(L-1);
-words = fliplr( ff2n(L) ); % binary strings powerset constructor
-r = liferule;
-k = kernel(Lsqrt); 
-hmat = []; lmat = [];
+L =N^2; dim = 2^L; 
+words = fliplr( ff2n( L ) ); % binary strings powerset constructor
+r = liferule; k = kernel( N ); 
+hmat = []; lmat = []; 
 base = 2.^(0:L-1);
-for k=1:dim
-    s = words(k, :); 
-    h = k*s' ;
-    lr = s + r(h+1);
-    hmat = [hmat, h'];
-    lmat = [lmat, lr' ]; 
+for i=1:dim-1
+    s = words(i, :); 
+    out = s + r( 1 + k*s' );
+    z(i) = base*out'; 
 end
-z = base*lmat;
+figure(1), plot(z,'*')
 analyze(z)
-figure(1), imagesc(hmat), title(['Circular Convolution over all strings in [0,...,',num2str(dim),']'])
-figure(2), imagesc(lmat), title('Life Rule filter'), colormap gray
-figure(3), plot(z,'*')
 end
 
 function analyze(z)
@@ -34,5 +32,5 @@ for i=1:length(z)
     if z(i)>0 && z(i)<511, k=k+1;dz(k) = z(i)-i;end
 end
 disp(['Fixed points: ',num2str(zsum)])
-figure(4), plot(dz,'*')
+figure(2), plot(dz,'*')
 end
