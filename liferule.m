@@ -1,4 +1,4 @@
-function R  = liferule  %Problem with this rule -- to be chekced! --
+function R  = liferule  
 s = 0; % create digit-sum sequence for all 9-bit strings in lexicographic order
 for i=1:9
     s = [s, s+1];
