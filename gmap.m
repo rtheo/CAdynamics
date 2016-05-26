@@ -1,9 +1,9 @@
 function z = gmap(L)
 clc, close all 
-dim = 2^L; L0 = floor(sqrt(L));
+dim = 2^L; Lsqrt = 2^(L-1);
 words = fliplr( ff2n(L) ); % binary strings powerset constructor
 r = liferule;
-k = kernel(L0); 
+k = kernel(Lsqrt); 
 hmat = []; lmat = [];
 base = 2.^(0:L-1);
 for k=1:dim
