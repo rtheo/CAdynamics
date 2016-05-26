@@ -1,6 +1,7 @@
 function liveon( c, steps, graph )
 % Example with direct application of matrix convolution
 % Try it with liveon( [], ... )
+% Graphics: L -> lattice, h -> filter out, hft -> FFT(h), Lft -> FFT(L)
 clc, close all
 if isempty(c), 
     disp(' Trial Patterns \n');
