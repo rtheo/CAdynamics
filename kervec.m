@@ -1,4 +1,4 @@
-function [ker, j] = kernel( k0, i, j)
+function [ker, j] = kervec( k0, i, j)
 [dummy, L] = size(k0);
 count = mod(i, L);
 k0 = circshift(k0', count - 1 )';  
