@@ -1,13 +1,13 @@
 function z = gmap(L)
 clc, close all 
 dim = 2^L; L0 = floor(sqrt(L));
-klex = fliplr( ff2n(L) ); % binary strings powerset constructor
+words = fliplr( ff2n(L) ); % binary strings powerset constructor
 r = liferule;
 k = kernel(L0); 
 hmat = []; lmat = [];
 base = 2.^(0:L-1);
 for k=1:dim
-    s = klex(k, :); 
+    s = words(k, :); 
     h = k*s' ;
     lr = s + r(h+1);
     hmat = [hmat, h'];
