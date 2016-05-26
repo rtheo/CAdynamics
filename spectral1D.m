@@ -5,7 +5,7 @@ function spectral1D( q, rule, steps )
 clc, close all
 dim = length(q);
 r = ceil(mod(log2(bitxor(rule, rule+2.^(0:7))), 1)); % division-free binary decoder 
-rad = 1; N = 2*rad+1; base = 2.^(0:N-1); 
+rad = 1; N = 2*rad+1; base = fliplr( 2.^(0:N-1) ); 
 v = [base, zeros(1, dim-N)]; v = circshift(v', -1)' ;
 u = fft( v ); % extract eigenvalues for circ filter
 % pseudo-spectral method analogous to nonlinear Schroedinger 
