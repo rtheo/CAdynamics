@@ -24,9 +24,7 @@ imagesc( reshape(1-c, L, L) ), pause, colormap gray
 title('Press any key to continue')
 % evolve via BCCB convolution
 for t=1:steps    
-    ptr = k*c' ;   
-    disp(ptr')
-    c = c + r( ptr' + 1 );  % discretized pde representation, r(x) ~ tanh( k*cos( [x +delta(x)]/pi ) ), k >> 1
+    ptr = k*c'; c = c + r( ptr + 1 );  % discretized pde representation
     if sum(c) == 0, disp(['All cells dead at t = ',num2str(t)]), break, end
     if strcmp(graph, 'L'), imagesc( reshape(1-c, L, L) ), colormap gray, end
     if strcmp(graph, 'h'), imagesc( reshape(ptr, L, L) ), end
