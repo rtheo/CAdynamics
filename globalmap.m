@@ -9,9 +9,9 @@ function z = globalmap(N)
 %(IPFBAA) as a bit-string generator inside the main loop.
 if nargin<2, subint=0; inter = 0; end
 clc, close all 
-L =N^2; dim = 2^L; r = liferule; k = kernel( N ); 
+L =N^2; r = liferule; k = kernel( N ); 
 if subint==0, %Initialize bit-string generator
-    s = IPFBAA( [], L );  dim1 = 0; dim2 = L; 
+    s = IPFBAA( [], L ); lowlim = 1; uplim = 2^L; 
 else
     dim1 = subint^2 + inter; s = ones(1, L); 
     lowlim = 2^dim1; uplim = 2*lowlim - 1;
@@ -33,14 +33,9 @@ disp(['Number of unique values: ',num2str(lu)])
 disp(['Zero values: ',num2str(sum0)])
 disp(['Upper limit values: ',num2str(sumup)])
 disp(['Non-zero values: ',num2str(length(z) - sum0 - sumup)])
-% strip all non-extreme values - check for fix. points
-zsum = 0;k = 0;
-for i=1:length(z)
-    if z(i)==i, zsum = zsum + 1; end
-    if z(i)>0 && z(i)<d, k=k+1;dz(k) = z(i)-i;end
-end
-disp(['Fixed points: ',num2str(zsum)])
+dz = z - (1:length(z));
 figure(2), plot(dz,'.'), title('deviation from linearity')
+disp(['Fixed points: ',num2str(sum(dz==0))])
 end
 
 function s = IPFBAA(s, n)
