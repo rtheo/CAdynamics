@@ -1,25 +1,23 @@
 function knd = kernelND( L, dim, pc, plt )
 % Generic Kernel constructor for higher dimensions via tensor products
 % L := square lattice length, dim := CA dimension
-% pc := permutation flag, plt {0, 1, 2} for no plot/ kernel plot/ log plot
+% pc := permutation flag, plt: flag for no plot/ kernel plot
 if nargin<4, plt = 0; end
 if nargin<3, pc = 0; end
 clc, close all
 ck = [2.^(0:2) zeros(1, L-3)];
 ck = circshift( ck', [ -1 0 ] )';
 knd = toeplitz(  [ck(1), fliplr(ck(2:end))],  ck  );
-%disp(knd)
 for i=1:dim-1
     if pc && dim==2
         [w1, w2] = perm( L, i );
+        % Permutation breaks block symmetry. Replace with sum-of-krons
         knd = kron( w1, knd ) + kron( 8*eye(L), w2 );       
     else
-        % Permutation breaks block symmetry. Replace with sum-of-krons
         w = noperm( L, i ); knd = kron( w, knd );
     end
 end
-%disp(knd), pause
-if plt > 0
+if plt 
      figure(1)
      if plt, imagesc(knd) 
      else
