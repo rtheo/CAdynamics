@@ -3,7 +3,7 @@ Alternative representation of Cellular Automata with Circulant Convolution Filte
 
 1D cases<br>
 spectral1D.m : A split-step method from the spectral decomposition of circulant filters<br>
-Wheels1D.m   : Example of an alternative isentropic encoding for the study of analog machines w/out waste heat<br> 
+Wheels1D.m   : Example of an alternative const. entropy encoding for the study of analog machines with minimal waste heat<br> 
 
 2D cases (Game-of-Life - distinction is superficial in this technique)<br>   
 liveon.m     : Simulates a 2D CA with a particular rule loaded at initialization level <br>
@@ -14,8 +14,11 @@ kertest.m    : Shows an image of the Interaction Kernal as a matrix<br>
 gmap.m       : Computes a global map of a 2D CA for the powerset of all input strings of a given length<br>
 
 Auxilliary<br>
+kernelND.m <br>
+
+Replaces the original kernel.m for higher dimensions with the use of tensorial Kronecker product. Options: additional permutation of symbols as in the original kernel which gives higher weight to the central cell for easier rule to implement rules as additive transition maps. Plots both resulting self-similar kernels and their eigenvalue and eigenvector spectra. 
+
 drawtool.m  <br>
-musarithmica.m (a forthcoming CA synthi computer emulator)<br>
 
 Use mat = drawtool(init, dim,...) to make initial conditions as square arrays in three modes<br>
 1 -> random square array<br>
