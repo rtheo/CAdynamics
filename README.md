@@ -14,6 +14,8 @@ kertest.m    : Shows an image of the Interaction Kernal as a matrix<br>
 gmap.m       : Computes a global map of a 2D CA for the powerset of all input strings of a given length<br>
 
 Auxilliary<br>
+IPFBAA.m    : Fast Binary Adder - replaces binary counters
+FDFBD.m     : Fast division-free bitwise binary decoder
 kernelND.m <br>
 
 Replaces the original kernel.m for higher dimensions with the use of tensorial Kronecker product. Options: additional permutation of symbols as in the original kernel which gives higher weight to the central cell for easier rule to implement rules as additive transition maps. Plots both resulting self-similar kernels and their eigenvalue and eigenvector spectra. 
