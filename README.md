@@ -1,5 +1,5 @@
 # CAdynamics
-Alternative representation of Cellular Automata with Circulant Convolution Filters
+Alternative representation of Cellular Automata with Circulant Convolution Filters and Dimensional Reduction
 
 1D cases<br>
 spectral1D.m : A split-step method from the spectral decomposition of circulant filters<br>
@@ -38,8 +38,8 @@ Details on pseudo-spectral methods are in the below link<br>
 https://en.wikipedia.org/wiki/Split-step_method<br>
 
 Superficiality of the CA dimension here is to be understood as follows: All correlations and topological information of a<br>
-discretized grid can be thought of as imposed/enforced on an equivalent single signal by an interaction kernel. Any such<br> discretized world is then isomorphic to a signal of only temporal dimensionality. It is the externally imposed interaction that<br> 
-builds the spatial dimensionality as a result of the recursion performed. Change appropriately the kernel and you can have<br>
+discretized grid can be thought of as imposed/enforced on an equivalent single signal by an interaction kernel. Any such<br> discretized world is then isomorphic to a signal of only temporal dimensionality. It is the externally imposed interaction that
+builds the spatial dimensionality as a result of the recursion performed. Change appropriately the kernel and you can have
 any dimensionality assuming unbounded length.
 
 
