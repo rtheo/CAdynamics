@@ -32,7 +32,7 @@ sum0 = sum(z==0); sumup = sum(z==511);
 disp(['Number of unique values: ',num2str(lu)])
 disp(['Zero values: ',num2str(sum0)])
 disp(['Upper limit values: ',num2str(sumup)])
-disp(['Non-zero values: ',num2str(length(z) - sum0 - sumup)])
+disp(['Non-zero intermediate values: ',num2str(length(z) - sum0 - sumup)])
 dz = z - (1:length(z));
 figure(2), plot(dz,'.'), title('deviation from linearity')
 disp(['Fixed points: ',num2str(sum(dz==0))])
