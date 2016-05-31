@@ -17,7 +17,7 @@ if isempty(c),
         case 3, c = [zeros(1, 11), 1 1 1, zeros(1, 11)]; c(8) = 1; c(19) = 1;
     end
 end
-L = sqrt( length( c ) );
+L = sqrt( numel( c ) );
 if mod(L, 1)>0, error('Init. Cond. length not a square number!'), end
 r = liferule;        % initialize Life transfer function
 k = kernel(L);       % initialize convolution kernel
