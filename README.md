@@ -1,5 +1,6 @@
 # CAdynamics
-Alternative representation of Cellular Automata with Circulant Convolution Filters and Dimensional Reduction
+Alternative representation of Cellular Automata with Circulant Convolution Filters and Dimensional Reduction<br>
+Theoretical description available in a <a href="http://arxiv.org/abs/1606.04023">preprint</a>
 
 1D cases<br>
 spectral1D.m : A split-step method from the spectral decomposition of circulant filters<br>
